@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap");
+/* *{
+    transition:  all 0.5s ease-in-out ;
+} */
+.font-diff {
+  font-family: "Mrs Saint Delafield";
+  color: #d6ac95;
+  font-size: 50px;
+}
+.slider-content {
+  position: absolute;
+  top: 20%;
+  right: 5%;
+}
+.btn {
+  border: 1px solid #d6ac95;
+  background-color: #d6ac95;
+  color: #fff;
+}
+.btn:hover {
+  border: 1px solid #000;
+  background-color: #000;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #d6ac95;
+  color: #fff;
+  padding: 20px 10px;
+  /* display: none; */
+  opacity: 0;
+  transition: all 0.5s ease-out;
+}
+.main:hover .carousel-control-prev-icon 
+{
+ opacity: 1;
+ 
+  /* transition:  all 0.5s ease-in-out ; */
+}
+.main:hover .carousel-control-next-icon 
+{
+    opacity: 1;
+  /* transition:  all 0.5s ease-in-out ; */
+}
+.carousel-control-next-icon:hover{
+    background-color: #000;
+}
+.carousel-control-prev-icon:hover{
+    background-color: #000;
+}
